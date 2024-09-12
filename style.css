@@ -1,0 +1,22 @@
+
+p{
+    color: initial;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    color: aliceblue;
+}
+
+ /* Make the body a flex container */
+ body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;            /* Set height to full viewport */
+    margin: 0;   
+                /* Remove default margin */
+}
