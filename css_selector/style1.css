@@ -1,0 +1,44 @@
+/* element selector in css */
+
+body {
+    font-size: 24px;
+}
+
+p{
+    color: purple;
+}
+
+h1, h2 {
+    
+    color: green;
+    text-align: center;
+}
+
+/* element selector inside another element */
+
+p span {
+    text-transform: uppercase ;
+    background-color: gold;
+}
+
+/* class selector */
+
+.green {
+    color: darkblue;
+    background-color: rgb(209, 238, 148);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.fontSt {
+
+    font-style: italic;
+}
+
+/* id selector */
+
+#second {
+
+    font-style: italic;
+
+}
