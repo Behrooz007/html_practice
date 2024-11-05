@@ -5,6 +5,7 @@ const fname = document.getElementById("fname");
 const lname = document.getElementById("lname");
 const email = document.getElementById("email_id");
 const psw = document.getElementById("psw");
+const btn = document.getElementById("btn");
 
 
 
@@ -14,7 +15,6 @@ fname.addEventListener("blur", function() {
 
     //check if the input text is empty 
     if(fname.value.trim() === "") {
-        alert("First name cannot be empty!");
         fname.style.borderColor = "red";
     }else {
         fname.style.borderColor = "";
@@ -24,7 +24,6 @@ fname.addEventListener("blur", function() {
 lname.addEventListener("blur", function(){
 
     if(lname.value.trim() === "") {
-        alert("Last name cannot be empty");
         lname.style.borderColor = "red";
     }else {
         lname.style.borderColor = "";
@@ -34,7 +33,6 @@ lname.addEventListener("blur", function(){
 email.addEventListener("blur", function(){
 
     if(email.value.trim() === "") {
-        alert("Email input cannot be empty");
         email.style.borderColor = "red";
     }else {
         email.style.borderColor = "";
@@ -44,12 +42,23 @@ email.addEventListener("blur", function(){
 psw.addEventListener("blur", function(){
 
     if(psw.value.trim() === "") {
-        alert("Password input cannot be empty");
         psw.style.borderColor = "red";
     }else {
         psw.style.borderColor = "";
     }
 });
+
+btn.addEventListener("click", function(){
+
+    if(fname.value.trim() === "" && lname.value.trim() === ""
+        && email.value.trim === "" && psw.value.trim() === "") {
+            alert("You have successfully saved the info");
+    }else {
+        alert("You should first enter your info");
+    }
+});
+
+
 
 
 
