@@ -1,0 +1,33 @@
+
+
+p.dotted {
+
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed
+}
+
+p.doubled {
+    border-style: double;
+}
+
+p.solid {
+    border-style: solid;
+    border-color: aqua;
+}
+
+p.inset {
+    padding: 6px;
+    border-style: inset; 
+}
+
+p.outset {
+    padding: 6px;
+    border-style: outset;
+}
+
+p.mix_border {
+    border-style: double outset;
+}

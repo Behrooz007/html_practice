@@ -1,0 +1,16 @@
+
+
+body {
+    margin:250px;
+    display: flex;
+    
+    border: 4px solid black;
+    justify-content: center;
+
+}
+
+.box1{
+    
+    width:500 px;
+    background-color: aqua;
+}

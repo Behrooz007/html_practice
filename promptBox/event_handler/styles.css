@@ -1,0 +1,92 @@
+
+#myBox{
+     background-color: aqua;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin-bottom: 50px;
+     border-radius: 12px;
+
+}
+
+#fname{
+     margin-top: 10px;
+     border-radius: 6px;
+     padding: 10px;
+     border-color: green;
+     border-block-color: green;
+     color: darkslategray;
+     margin-bottom: 10px;
+}
+
+#lname {
+     margin-top: 10px;
+     border-radius: 6px;
+     padding: 10px;
+     color: darkslategray;
+     border-color: green;
+     margin-bottom: 10px;
+}
+
+#email_id {
+     margin-top: 10px;
+     border-radius: 6px;
+     padding: 10px;
+     color: darkslategray;
+     border-color: green;
+     margin-bottom: 10px;
+}
+
+#psw {
+     margin-top: 10px;
+     border-radius: 6px;
+     padding: 10px;
+     color: darkslategray;
+     border-color: green;
+     margin-bottom: 10px;
+}
+
+#btn {
+     margin-top: 15px;
+     padding: 10px;
+     padding-left: 20px;
+     padding-right: 20px;
+     color: white;
+     font-weight: bold;
+     border-radius: 4px;
+     background-color: green;
+}
+
+body , html {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+#lb1 {
+     color: darkslategrey;
+     font-size: 20px;
+}
+
+#lb2 {
+     color: darkslategrey;
+     font-size: 20px;
+     margin-top: 20px;
+}
+
+#lb3 {
+     color: darkslategrey;
+     font-size: 20px;
+     margin-top: 20px;
+}
+
+#lb4 {
+     color: darkslategrey;
+     font-size: 20px;
+     margin-top: 20px;
+}

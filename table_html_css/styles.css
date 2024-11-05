@@ -1,0 +1,25 @@
+
+table, th , td {
+    border: 3px  solid black;
+    border-radius: 6px
+    
+}
+
+
+
+
+
+.height1 {
+    height: 30px ;
+}
+
+.height2{
+    height: 100px;
+   
+}
+
+table, th, td {
+    border-color: rgb(41, 110, 116);
+    text-align: center;
+}
+
